@@ -1,0 +1,7 @@
+# Ler uma lista com 4 notas, em seguida o programa deve exibir as notas e a média.
+soma = 0
+n = [float(input("Nota do aluno:    ")) for item in range (4)]
+
+for notas in n:
+    soma += notas
+print(soma / 4)
